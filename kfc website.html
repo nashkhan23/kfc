@@ -1,0 +1,299 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>KFC WEBSITE</title>
+<style>
+    
+    body{
+        margin: 0px 120px;
+        background-color: white;
+    }
+    
+    
+    .strip-container {
+        display:flex;
+        justify-content: center;
+    }
+    .strip {
+        display: flex;
+        justify-content: space-evenly;
+        width: 300px;
+
+    }
+.strip > div {
+    background-color: rgba(240, 15, 15, 0.988);
+    width: 25px;
+    height: 15px;
+
+}
+.header {
+    display: flex;
+    width: 100%;
+    margin-bottom: 5px;
+    
+}
+.kfclogo-container {
+    display: flex;
+    flex: 5;
+}
+.store {
+    display: flex;
+    flex: 5;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.gap a {
+    padding: 5px;
+    text-decoration: none;
+    color:black;
+    }
+a:hover {
+    color: grey;    
+}
+    
+
+
+.main-img {
+    display: flex;
+
+}
+h2 {
+    text-align: center;
+    
+}
+
+ .finger-img {
+    display: flex;
+    justify-content: center;
+ }
+
+
+table,th,td {
+    text-align: left;
+    padding: 12px;
+
+}
+th {
+    text-transform: capitalize;
+}
+td {text-transform: capitalize;}
+.font-cap {
+    text-transform: capitalize;
+}
+.nav-container{
+    display: flex;
+    background-color: rgb(245, 245, 245);
+    }
+.nav-bar{
+    display: flex;
+    flex: 8;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11PX;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+.nav-logo{
+    display: flex;
+    flex: 2;
+    justify-content: flex-end;
+}
+.header{
+    display: flex;
+    width: 100%;
+    }
+.kfc-logo{
+    display: flex;
+    flex: 4;
+    }
+.store{
+    display: flex;
+    flex: 6;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.remove-tag{
+    text-decoration: none;
+    color: black;
+    }
+.content{
+    display: flex;
+    padding: 5px;
+    margin-right: 5px;
+
+    }
+    .remove-tag:hover {
+        color: grey;}
+#deal-cards {
+    display: flex;
+
+}
+.card {
+    border: 1px transparent;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    width: 33%;
+    margin: 5px;
+    font-size: medium;
+    justify-content: space-between;
+    padding: 5px;
+}
+.card button{
+    display: flex;
+    border: none;
+    outline: 0;
+width: 100%;
+padding: 10px;
+border: 2px solid rgba(240, 15, 15, 0.988);;
+justify-content: center;
+cursor: pointer;
+}
+.cartbutton:hover{
+    opacity: 0.6;
+}
+.pkr-button {
+    display: flex;
+    background-color: rgba(240, 15, 15, 0.988);;
+    justify-content: flex-end;
+}
+.price {
+    background-color: white;
+    color: rgba(240, 15, 15, 0.988);;
+}
+.cartbutton {
+    background-color: rgba(240, 15, 15, 0.988);;
+    color: white;
+
+}
+h4 {
+    text-align: left;
+}
+.card:hover{
+    border: 1px solid black;
+    padding: 5px;
+}
+</style>
+
+
+</head>
+<body>
+    <div class="strip-container">
+        <div class="strip">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+        </div>
+
+     <div class="header">
+        <div class="kfclogo-container">
+        <img src="kfc logo.jpeg" width="100PX" height="100px"> </div>
+     <div class="store">
+        <div class="gap"><a class="text" href="#"><b>STORE LOCATOR</b></a></div> 
+        <div class="gap"><a class="text" href="#"><b>SIGN IN / REGISTER</b></a></div>     
+         </div>
+     </div>
+     <div class="nav-container">
+        <div class="nav-bar">
+            <div class="content"><a class="remove-tag" href="">EVERYDAY VALUES</a></div>
+            <div class="content"><a class="remove-tag" href="">ALA CARTE & COMBOS</a></div>
+            <div class="content"><a class="remove-tag" href="">SIGNATURE BOXES</a></div>
+            <div class="content"><a class="remove-tag" href="">PROMOTIONS</a></div>
+            <div class="content"><a class="remove-tag" href="">SNACKS</a></div>
+            <div class="content"><a class="remove-tag" href="">MIDNIGHT DEALS</a></div>
+            </div>
+        <div class="nav-logo">
+            <img src="cartlogo.jpeg" style="width: 40px;height: 40px;">
+            <span style="position: absolute;right: 136px;top: 130px;font-size: 20px;">0</span>
+        </div>
+     </div>
+     <div class="main-img" style="padding: 0;">
+    <img src="main logo.jpeg" width="100%" height="auto">
+</div>
+ <hr>
+ <h2>SIGNATURE BOXES</h2>
+ 
+        </div>
+        <div id="deal-cards">
+        <div class="card">
+            <img src="crispy box.jpeg" width="100%" height="auto">
+            <h4>CRISPY BOXES</h4>
+            <p style="text-align: left;">5 pcs zinger strips, 2 regular drinks, 1 regular fries</p>
+           <div class="pkr-button"> <button class="price">PKR 520</button>
+             <button class="cartbutton">ADD TO CART</button></div>
+        </div>
+        <div class="card">
+            <img src="boneless box.jpeg" width="100%" height="auto">
+            <h4>BONELESS BOXES</h4>
+            <p style="text-align: left;">2 PCS hot and crispy chicken, 1 regular drink, 1 regular fries + coleslaw</p>
+            <div class="pkr-button"> <button class="price">PKR 520</button>
+                <button class="cartbutton">ADD TO CART</button></div>
+        </div>
+        <div class="card">
+            <img src="wow box.jpeg" width="100%" height="auto">
+            <h4>WOW BOXES</h4>
+            <p style="text-align: left;">2 zinger burger, 2 pcs chicken, 2 regular drinks and 2 regular fries</p>
+            <div class="pkr-button"> <button class="price">PKR 520</button>
+                <button class="cartbutton">ADD TO CART</button></div>
+        </div>
+        </div>
+     <hr>
+     <br>
+     <div class="finger-img">
+     <img src="finger lick.jpeg" width="200px" height="100px">
+     </div>
+     <br>
+     <br>
+     <div class="table-container">
+        <div class="table">
+            <table style="width: 80%;">
+            <tr>
+                <th>information</th>
+                <th>food</th>
+                <th>location</th>
+                <th>get in touch</th>
+            </tr>
+            <tr>
+                <td><a class="remove-tag" href="nav-bar.html">about us</a></td>
+                <td><a class="remove-tag" href="">our secret recipe</a></td>
+                <td><a class="remove-tag"href="">find a store</a></td>
+                <td><a class="remove-tag"href="">contact</a></td>
+            </tr>
+            <tr>
+                <td><a class="remove-tag"href="">mitao bhook</a></td>
+                <td></td>
+                <td></td>
+                <td><a class="remove-tag"href="">join us</a></td>
+            </tr>
+            <tr>
+                <td><a class="remove-tag"href="">privacy policy</a></td>
+                <td></td>
+                <td></td>
+                <td><a class="remove-tag"href="">terms and conditions</a></td>
+            </tr>
+            </table>
+        </div>
+
+     </div>
+     <br>
+     <div class="strip-container">
+        <div class="strip">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+        </div>
+     
+</body>
+</html>
+
